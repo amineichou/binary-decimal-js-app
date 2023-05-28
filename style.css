@@ -1,0 +1,32 @@
+
+
+body {
+    background-color: #f0f8ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.container input {
+    width: 280px;
+    padding: 15px;
+    border: 2px solid #000000;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+}
+
+.container input:focus {
+    border: 2px solid #7060b9;
+    border-radius: 0;
+}
